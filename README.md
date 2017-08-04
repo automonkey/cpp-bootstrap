@@ -1,10 +1,10 @@
-#C++ Makefile Project Bootstrap
+# C++ Makefile Project Bootstrap
 
 Base Makefile setup for a C++ project. All but stolen from a combination of [Igence Ltd.](https://github.com/igence) and [Charles Bailey](https://github.com/hashpling).
 
 Uses the [Catch C++ test framework](https://github.com/philsquared/Catch).
 
-##Basic Usage
+## Basic Usage
 
 `make` build all components and run unit tests.
 
@@ -14,7 +14,7 @@ Uses the [Catch C++ test framework](https://github.com/philsquared/Catch).
 
 `make clean` to delete output and intermediate files.
 
-##Project Components
+## Project Components
 
 ***app***: the application (at it's simplest, a wrapper around functionality in *lib*).<br />
 ***lib***: the unit testable functionality.<br />
@@ -29,7 +29,7 @@ Uses the [Catch C++ test framework](https://github.com/philsquared/Catch).
 > ***ticketbookings-lib***<br />
 > ***ticketbookings-lib-ut***<br />
 
-##Project layout
+## Project layout
 
 ```
 .
